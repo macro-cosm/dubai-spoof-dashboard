@@ -191,8 +191,8 @@ def create_combined_plot(volume_data, rates_data):
     )
     
     # Set x-axis ranges to match the original plots
-    fig.update_xaxes(range=[0, 6], row=1, col=1)  # Order flow plot range
-    fig.update_xaxes(range=[0, 15], row=2, col=1)  # Cancellation rate plot range
+    fig.update_xaxes(range=[0, 5], row=1, col=1)  # Order flow plot range
+    fig.update_xaxes(range=[1.5, 10.5], row=2, col=1)  # Cancellation rate plot range
     
     return fig
 

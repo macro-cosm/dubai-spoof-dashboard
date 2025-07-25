@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 data = np.random.exponential(scale=1, size=7_000)
 
-spoofed = 2 + 1.5 * np.random.rand(800)
+spoofed = 2 + 1.5 * np.random.rand(1200)
 
 spoofed = spoofed[spoofed > 0]
 
